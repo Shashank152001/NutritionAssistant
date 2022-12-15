@@ -1,0 +1,59 @@
+/* Header and navbar Css */
+#header{
+    display: flex;
+    align-items: baseline;
+}
+
+/* Registration page css */
+#reg{
+    display: flex;
+    margin-top: 30px;
+    height: 500px;
+}
+#reg .row{
+    height: 100%;
+    align-items: center;
+}
+
+/* Login page css */
+#login{
+    display: flex;
+    height: 500px;
+    margin-top: 30px;
+}
+#login .row{
+    height: 100%;
+    align-items: center;
+}
+
+/* Hero sectio  */
+#hero img{
+    height: 550px;
+}
+
+#testi{
+    padding: 20px 0px;
+  }
+  #testi img{
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+  }
+#userdashborad{
+    margin-bottom: 315px;
+}
+/* #footer{
+    margin-top: 100px;
+} */
+#nutrisearch{
+    margin-bottom: 99px;
+}
+#myDiary{
+    margin-bottom: 275px;
+}
+#tracking{
+    margin-bottom: 315px;
+}
+#myDiary{
+    margin-bottom: 315px;
+}

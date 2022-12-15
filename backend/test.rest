@@ -1,0 +1,26 @@
+###
+GET http://localhost:5000/api
+
+###
+POST http://localhost:5000/api/food
+Content-Type: application/json
+
+{
+    "foodname":"crispy chicken",
+    "protein":20.6,
+    "carbohydrate":13.7,
+    "fat":15.4,
+    "vitaminA":2.1,
+    "vitaminB12":0.17,
+    "vitaminC":0.3,
+    "calcium":25,
+    "iron":0.69,
+    "fiber":1.4,
+    "energy":1150
+}
+
+###
+GET http://localhost:5000/api/food
+
+###
+DELETE http://localhost:5000/api/food/6392a985d8403a48eb397dad
